@@ -1,0 +1,22 @@
+.Lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  min-height: 150px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid royalblue;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: paleturquoise;
+}
+
+a:hover {
+  color: royalblue;
+  background-color: peachpuff;
+}

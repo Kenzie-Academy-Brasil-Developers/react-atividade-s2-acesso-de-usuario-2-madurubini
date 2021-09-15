@@ -7,11 +7,11 @@ function Customer() {
   const member = members.find((member) => member.id === id);
   return (
     <>
-      <div>
+      <div className="Card">
         <h1>Detalhes do Cliente</h1>
+        <Link to="/">Voltar</Link>
         <p>Nome: {member && member.name}</p>
       </div>
-      <Link to="/">Voltar</Link>
     </>
   );
 }
